@@ -18,3 +18,6 @@ jobs:
       run: |
            test -s index.html
            test -s styles.css
+      
+    - name: Lint HTML
+      run: npx --yes htmlhint@1.9.2 index.html
