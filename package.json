@@ -1,0 +1,27 @@
+{
+  "name": "personal-cloud-portfolio",
+  "version": "1.0.0",
+  "description": "My cloud engineering portfolio hosted on AWS",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisantonioburgos9751/personal-cloud-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisantonioburgos9751/personal-cloud-portfolio/issues"
+  },
+  "homepage": "https://github.com/luisantonioburgos9751/personal-cloud-portfolio#readme",
+  "devDependencies": {
+    "stylelint": "^17.16.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}

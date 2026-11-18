@@ -53,7 +53,6 @@ section[id] {
     max-width: 1120px;
     margin: 0 auto;
     padding: 20px 24px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,7 +69,6 @@ section[id] {
     display: flex;
     align-items: center;
     gap: 28px;
-
     margin: 0;
     padding: 0;
     list-style: none;
@@ -167,7 +165,6 @@ section[id] {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-
     border-bottom: 1px solid var(--line);
     padding-bottom: 20px;
     margin-bottom: 40px;
@@ -215,7 +212,6 @@ section[id] {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
     list-style: none;
     padding: 0;
     margin: 24px 0;
@@ -304,7 +300,6 @@ section[id] {
     max-width: 1120px;
     margin: 0 auto;
     padding: 28px 24px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -317,6 +312,7 @@ section[id] {
     margin: 0;
 }
 
+/* stylelint-disable-next-line no-descending-specificity -- Footer and navigation links are separate elements. */
 .footer-content a {
     color: var(--green);
     font-size: 13px;
@@ -330,8 +326,7 @@ section[id] {
 
 /* ===== RESPONSIVE: TABLET ===== */
 
-@media (max-width: 768px) {
-
+@media (width <= 768px) {
     .header-content {
         flex-wrap: wrap;
     }
@@ -358,8 +353,7 @@ section[id] {
 
 /* ===== RESPONSIVE: MOBILE ===== */
 
-@media (max-width: 480px) {
-
+@media (width <= 480px) {
     .header-content {
         flex-direction: column;
         align-items: flex-start;
@@ -416,7 +410,6 @@ section[id] {
 /* ===== ACCESSIBILITY ===== */
 
 @media (prefers-reduced-motion: reduce) {
-
     html {
         scroll-behavior: auto;
     }
